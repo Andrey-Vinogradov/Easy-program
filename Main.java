@@ -4,12 +4,11 @@ public class Main {
         Vegetables name = new Vegetables();
         Vegetables words = new Vegetables();
 
-        int r = 15;
-        int num = number.randomNumber(r);
-        System.out.println(num + " " + name.randomName() + words.lastWords());
+        System.out.print(number.randomNumber(15) + " " + name.randomName() + words.lastWords());
+        System.out.println();
+        System.out.print(number.randomNumber(15) + " " + name.randomName() + words.lastWords());
+        System.out.println();
+        System.out.print(number.randomNumber(15) + " " + name.randomName() + words.lastWords());
 
     }
-
-
-    /*   static Vegetables vegetables = new Vegetables();*/
 }
